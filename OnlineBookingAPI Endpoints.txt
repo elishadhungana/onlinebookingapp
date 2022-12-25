@@ -1,0 +1,38 @@
+1. Create User
+	- localhost:4000/users/create
+		Header Parameter
+		{
+			"name": "Amrit",
+			"email": "love",
+			"password": "love123",
+			"role": "admin"
+		}
+		Response Parameter
+		{
+			"id": "63a745ef7b2a7608d8d1060b",
+			"name": "Elisha",
+			"email": "elisha.dhunganaou@gmail.com",
+			"role": "admin",
+			"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTc0NWVmN2IyYTc2MDhkOGQxMDYwYiIsImlhdCI6MTY3MTkwNjgwMCwiZXhwIjoxNjg5MTg2ODAwfQ.SaHEWqJfNbNtlXVRGa7alSq7lGYFEFBwMk8JOBYfpWs"
+}
+		
+		
+2. Login User
+	- localhost:4000/users/login
+		Header Parameter
+		{
+			"email": "elisha.dhungana.8@gmail.com",
+			"password": "love123"
+		}
+		
+		Response Parameter
+		{
+			"_id": "63a746c27b2a7608d8d10610",
+			"name": "Elisha",
+			"email": "elisha.dhungana.8@gmail.com",
+			"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYTc0NmMyN2IyYTc2MDhkOGQxMDYxMCIsImlhdCI6MTY3MTkwNzA2MSwiZXhwIjoxNjg5MTg3MDYxfQ.4YWzoqPPSIJGmQ8o10GTby9WXip3TkOOqFLfRAET3CY"
+		}
+	
+
+	
+3.  
